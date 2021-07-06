@@ -1,5 +1,4 @@
 #include "print.h"
-#define MAX 100
 
 void kernel_main(){
     print_clear();
@@ -9,10 +8,4 @@ void kernel_main(){
     print_str("Created by Tran Quang Vu");
     print_newline();
     print_str("Originally from CodePulse youtube channel [ I> ]");
-    // while(1){
-    //     char[MAX] cmd;
-    //     printf("Command: ");
-    //     gets(cmd);
-    //     printf("%s", cmd);
-    // }
 }
